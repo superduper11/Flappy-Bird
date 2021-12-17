@@ -187,8 +187,7 @@ function mouseClicked()
 {
   flappy.velocityY = -7;
 }
-function click()
-{
-  flappy.velocityY = -7;
-}
+window.addEventListener('touchstart', function() {
+ flappy.velocityY = -7;
+});
 
