@@ -176,10 +176,6 @@ if(mousePressedOver(restart))
 {
   window.location.reload();
 }
-  if(click(restart))
-  {
-    window.location.reload();
-  }
   flappy.collide(invisibleGround);
   drawSprites();
   fill("black")
