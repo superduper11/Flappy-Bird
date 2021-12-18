@@ -191,9 +191,5 @@ window.addEventListener('touchstart', function() {
  flappy.velocityY = -7;
 });
 
- window.addEventListener('touchstart', function(restart) {
-  window.location.reload();
- });
-
 document.title = "Flappy Bird";
 
